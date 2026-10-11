@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "btw.community.chronicboy.controller.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "EntityRendererMixin",
+    "GuiContainerAccessor",
+    "GuiOptionsMixin",
+    "GuiScreenAccessor",
+    "GuiScreenMixin",
+    "GuiSlotMixin",
+    "MinecraftMixin",
+    "MovementInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
